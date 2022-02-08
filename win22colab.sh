@@ -7,7 +7,7 @@ wget -O win2022.gz https://bit.ly/W2022-Gitpod
 gunzip win2022.gz
 echo "Please wait..."
 mv win2022 win2022.img
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/Motdulieu/skycolab-win/main/ng.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
